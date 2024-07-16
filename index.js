@@ -29,7 +29,7 @@ app.post("/check", (req, res) => {
         res.sendFile(__dirname + "/xyz.html");
     }
     else {
-        res.redirect("https://www.google.com")
+        res.redirect("https://www.googlr")
     }
 })
 
